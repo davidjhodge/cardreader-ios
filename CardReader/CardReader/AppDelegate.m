@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CreditCardManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //[CreditCardManager defaultManager];
+    
     return YES;
 }
 

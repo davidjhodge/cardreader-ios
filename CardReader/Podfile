@@ -3,5 +3,7 @@
 
 target 'CardReader' do
 
+pod 'CardIO'
+
 end
 
